@@ -35,11 +35,13 @@ server:
  ./ib_send_lat 10.228.74.215  --report_gbits -F
  
  device select：
+ 
  [root@snat01 bin]# ibv_devices
     device                 node GUID
     ------              ----------------
     mlx5_0              043f720300c10530
     mlx5_1              043f720300c10531
+    
 [root@snat01 bin]# ibv_devinfo
 hca_id: mlx5_0
         transport:                      InfiniBand (0)
